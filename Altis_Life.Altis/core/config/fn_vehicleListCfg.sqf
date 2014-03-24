@@ -233,7 +233,27 @@ switch (_shop) do
 		_return = _copCars;
 	};
 	
+	case "cop_car_4":
+	{
+		_return = _copCars;
+	};
+	
 	case "cop_car_5":
+	{
+		_return = _copCars;
+	};
+	
+	case "cop_car_6":
+	{
+		_return = _copCars;
+	};
+	
+	case "cop_car_7":
+	{
+		_return = _copCars;
+	};
+	
+	case "cop_car_8":
 	{
 		_return = _copCars;
 	};
@@ -288,7 +308,37 @@ switch (_shop) do
 	case "cop_air_2":
 	{
 		_return = _copAir;
-	}; 
+	};
+	
+	case "cop_air_3":
+	{
+		_return = _copAir;
+	};
+	
+	case "cop_air_4":
+	{
+		_return = _copAir;
+	};
+	
+	case "cop_air_5":
+	{
+		_return = _copAir;
+	};
+	
+	case "cop_air_6":
+	{
+		_return = _copAir;
+	};
+	
+	case "cop_air_7":
+	{
+		_return = _copAir;
+	};
+	
+	case "cop_air_8":
+	{
+		_return = _copAir;
+	};
 	
 	case "civ_ship_1":
 	{
@@ -306,6 +356,41 @@ switch (_shop) do
 	};
 	
 	case "cop_ship_1":
+	{
+		_return = _copBoats;
+	};
+	
+	case "cop_ship_2":
+	{
+		_return = _copBoats;
+	};
+	
+	case "cop_ship_3":
+	{
+		_return = _copBoats;
+	};
+	
+	case "cop_ship_4":
+	{
+		_return = _copBoats;
+	};
+	
+	case "cop_ship_5":
+	{
+		_return = _copBoats;
+	};
+	
+	case "cop_ship_6":
+	{
+		_return = _copBoats;
+	};
+	
+	case "cop_ship_7":
+	{
+		_return = _copBoats;
+	};
+	
+	case "cop_ship_8":
 	{
 		_return = _copBoats;
 	};

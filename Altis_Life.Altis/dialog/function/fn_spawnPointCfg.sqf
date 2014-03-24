@@ -22,11 +22,10 @@ switch (_side) do
 			["cop_spawn_3","Athira HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"],
 			["cop_spawn_4","Air HQ","\a3\ui_f\data\map\Markers\NATO\b_air.paa"],
 			["cop_spawn_5","Pefkas Bay Sheriff's Substation","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"],
-			["cop_spawn_6","Law Enforcment Training","\a3\ui_f\data\map\MapControl\fuelstation_ca.paa"],
 			["cop_spawn_7","Atheria Sheriff's HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"],
 			["cop_spawn_8","Iremi Bay Sheriff's Substation","\a3\ui_f\data\map\MapControl\fuelstation_ca.paa"],
 			["cop_spawn_9","Sofia Police Substation","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-			["cgs1","Coast Guard HQ","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+			["cop_spawn_10","Coast Guard HQ","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 		];
 	};
 	
