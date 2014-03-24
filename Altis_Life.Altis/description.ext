@@ -23,10 +23,12 @@ corpseRemovalMinTime = 10;
 corpseRemovalMaxTime = 30;
 
 #include "dialog\MasterHandler.h"
+#include "addons\R3F_ARTY_AND_LOG\desc_include.h"
 
 class RscTitles
 {
 	#include "dialog\ui.hpp"
+	#include "addons\R3F_ARTY_AND_LOG\desc_rsct_include.h"
 	#include "dialog\progress.hpp"
 };
 

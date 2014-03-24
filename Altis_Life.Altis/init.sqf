@@ -28,9 +28,9 @@ if(X_Client) then
 [] execVM "briefing.sqf"; //Load Briefing
 [] execVM "KRON_Strings.sqf";
 
-// enable logistics
-_logistic = execVM "=BTC=_Logistic\=BTC=_Logistic_Init.sqf";
-[] execVM "=BTC=_Logistic\=BTC=_Logistic_Init.sqf";
+
+//Towing
+[] execVM "R3F_ARTY_AND_LOG\init.sqf";
 
 //tear gas
 [] execVM "scripts\gas\gasmask.sqf";
