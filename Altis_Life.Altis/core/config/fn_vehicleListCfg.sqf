@@ -43,42 +43,34 @@ _civTruck =
 
 _copCars =
 	[
-		_return set[count _return,
-		["C_Offroad_01_F",5000]];
-		_return set[count _return,
-		["C_SUV_01_F",20000]];
+		_return set[count _return,["C_Offroad_01_F",5000]];
+		_return set[count _return,["C_SUV_01_F",20000]];
 		if(__GETC__(life_coplevel) > 2) then
 		{
-			_return set[count _return,
-			["B_MRAP_01_F",30000]];
+			_return set[count _return,["B_MRAP_01_F",30000]];
 		};
         if(__GETC__(life_coplevel) > 2) then
         {
-            _return set[count _return,
-            ["B_MRAP_01_hmg_F",750000]];
+            _return set[count _return,["B_MRAP_01_hmg_F",750000]];
         };
 	];
 
 _copAir =
 	[
-		_return set[count _return,
-		["B_Heli_Light_01_F",75000]];
+		_return set[count _return,["B_Heli_Light_01_F",75000]];
 		if(__GETC__(life_coplevel) > 2) then
 		{
-			_return set[count _return,
-			["B_Heli_Transport_01_F",200000]];
+			_return set[count _return,["B_Heli_Transport_01_F",200000]];
 		};
 		
 		if((__GETC__(life_donator) > 3) && (playerSide == west)) then
 		{
-			_return set[count _return,
-			["B_Heli_Light_01_armed_F",750000]];
+			_return set[count _return,["B_Heli_Light_01_armed_F",750000]];
 		};
 		
         if(__GETC__(life_coplevel) > 4) then
         {
-            _return set[count _return,
-            ["I_Heli_light_03_F",500000]];
+            _return set[count _return,["I_Heli_light_03_F",500000]];
         };
 	];
 
@@ -105,8 +97,7 @@ _reb =
 		
 		if((__GETC__(life_donator) > 3) && (license_civ_rebel)) then
 		{
-			_return set[count _return,
-			["B_Heli_Light_01_armed_F",750000]];
+			_return set[count _return,["B_Heli_Light_01_armed_F",750000]];
 		};
 	];
 	
@@ -162,7 +153,7 @@ switch (_shop) do
 	{
 		_return = _donator;
 	};
-			
+	
 	case "civ_servt_1":
 	{
 		_return =

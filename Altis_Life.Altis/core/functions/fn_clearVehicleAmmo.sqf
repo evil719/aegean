@@ -31,7 +31,7 @@ if(_veh == "I_Heli_Light_03_F") then
 };
 if(_veh == "B_Heli_Light_01_armed_F") then
 {
-	_vehlice removeMagazinesTurrent ["24Rnd_missiles",[0]];
+	_vehicle removeMagazinesTurrent ["24Rnd_missiles",[0]];
 };
 if(_veh == "B_Heli_Transport_01_F") then 
 {
