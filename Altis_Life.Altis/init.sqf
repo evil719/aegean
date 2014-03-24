@@ -30,7 +30,7 @@ if(X_Client) then
 
 
 //Towing
-[] execVM "R3F_ARTY_AND_LOG\init.sqf";
+[] execVM "addons\R3F_ARTY_AND_LOG\init.sqf";
 
 //tear gas
 [] execVM "scripts\gas\gasmask.sqf";

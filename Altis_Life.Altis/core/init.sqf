@@ -77,7 +77,7 @@ life_fnc_moveIn = compileFinal
 ";
 
 [] execVM "core\init_survival.sqf";
-[] execVM "core\actions\fn_Dealer.sqf";
+[] execVM "core\actions\civ\fn_Dealer.sqf";
 
 setPlayerRespawnTime life_respawn_timer; //Set our default respawn time.
 [] execVM "core\monitor_esc.sqf";

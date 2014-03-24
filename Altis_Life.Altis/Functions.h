@@ -40,8 +40,7 @@ class Life_Client_Core
 		class serviceTruck {};
 		class dpFinish {};
 		class getDPMission {};
-		class processAction {};
-		class suicideBomb {};		
+		class processAction {};		
 		class pickupItem {};
 		class pickupMoney {};
 		class pumpRepair {};				
@@ -62,6 +61,7 @@ class Life_Client_Core
 		class sellTurtle {};
 		class Dealer {};
 		class surrender {};
+		class suicideBomb {};
 	};
 	
 	class copActions
