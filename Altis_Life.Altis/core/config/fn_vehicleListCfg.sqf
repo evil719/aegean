@@ -257,7 +257,12 @@ switch (_shop) do
 	{
 		_return = _copCars;
 	};
-		
+	
+	case "cop_car_9":
+	{
+		_return = _copCars;
+	};
+	
 	case "fed_car":
 	{
 		_return set[count _return,
@@ -331,6 +336,11 @@ switch (_shop) do
 	};
 	
 	case "cop_air_7":
+	{
+		_return = _copAir;
+	};
+	
+	case "cop_air_8":
 	{
 		_return = _copAir;
 	};
