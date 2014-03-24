@@ -151,6 +151,7 @@ switch (_vehicle) do
 		switch (_index) do
 		{
 			case 0: {_color = "Green(Sheriff)"};
+			case 1: {_color = "Police"};
 		};
 	};
 	
@@ -159,6 +160,7 @@ switch (_vehicle) do
 		switch (_index) do
 		{
 			case 0: {_color = "SWAT"};
+			case 1: {_color = "Police"};
 		};
 	};
     
