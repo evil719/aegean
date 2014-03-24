@@ -345,7 +345,7 @@ switch (_shop) do
 		_return = _copAir;
 	};
 	
-	case "cop_air_8":
+	case "cop_air_9":
 	{
 		_return = _copAir;
 	};
