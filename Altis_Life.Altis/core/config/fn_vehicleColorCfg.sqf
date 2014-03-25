@@ -133,7 +133,8 @@ switch (_vehicle) do
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_sunset_co.paa","civ"],
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_vrana_co.paa","civ"],
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_wave_co.paa","civ"],
-			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_digital_co.paa","reb"]
+			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_digital_co.paa","reb"],
+			["images\vehlices\heli_sheriff.jpg",cop"]
 		];
 	};
 	
@@ -169,7 +170,9 @@ switch (_vehicle) do
 		_ret = 
 		[
 			["images\vehicles\mrap_01_base_police_co.jpg","cop","images\vehicles\mrap_01_adds_police_co.jpg"],
-			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","fed"]
+			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","fed"],
+			["images\vehicles\mrap_01_base_policeSUPER_co.jpg","cop","images\vehicles\mrap_01_adds_police_co.jpg"],
+			["images\vehicles\mrap_01_base_sheriffSUPER_co.jpg","cop","images\vehicles\mrap_01_adds_police_co.jpg"]
 		];
 	};
 	
@@ -204,6 +207,15 @@ switch (_vehicle) do
 		_ret = 
 		[
 			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","fed"]
+		];
+	};
+	
+	case "B_Heli_Transport_01_F":
+	{
+		_ret =
+		[
+			["images\vehicles\heli_transport_01_ext01_co_POLICE.jpg","cop"],
+			["images\vehicles\heli_transport_01_ext01_co_CG.jpg","cop"]
 		];
 	};
 };

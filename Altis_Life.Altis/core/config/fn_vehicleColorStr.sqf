@@ -132,6 +132,7 @@ switch (_vehicle) do
 			case 11: {_color = "Vrana"};
 			case 12: {_color = "Waves Blue"};
 			case 13: {_color = "Rebel Digital"};
+			case 14: {_color = "Sheriff};
 		};
 	};
 	
@@ -168,8 +169,10 @@ switch (_vehicle) do
 	{
 		switch (_index) do
 		{
-			case 0: {_color = "Regular"};
+			case 0: {_color = "SWAT"};
 			case 1: {_color = "Black"};
+			case 2: {_color = "Supervisor Police"};
+			case 3: {_color = "Supervisor Sheriff"};
 		};
 	};
 	
@@ -221,6 +224,15 @@ switch (_vehicle) do
 		switch (_index) do
 		{
 			case 0: {_color = "Black"};
+		};
+	};
+	
+	case "B_Heli_Transport_01_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Cop"};
+			case 1: {_color = "Coast Guard"};
 		};
 	};
 };
