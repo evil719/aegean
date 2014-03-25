@@ -4005,7 +4005,7 @@ class Mission
 					vehicle="C_man_1";
 					leader=1;
 					skill=0.60000002;
-					init="this enableSimulation false; this allowDamage false; this addAction[""Process Meth"",life_fnc_processAction,""meth"",0,false,false,"""",'life_inv_ammonia > 0 && life_inv_lithium > 0 && life_inv_sudafed > 0 && !life_is_processing']; this addAction[format[""%1 ($%2)"",[""license_civ_meth""] call life_fnc_varToStr,[([""meth""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""meth"",0,false,false,"""",' !license_civ_meth && playerSide == civilian '];";
+					init="this enableSimulation false; this allowDamage false; this addAction[""Process Meth"",life_fnc_processAction,""meth"",0,false,false,"""",' life_inv_ammonia > 0 && life_inv_lithium > 0 && life_inv_sudafed > 0 && !life_is_processing']; this addAction[format[""%1 ($%2)"",[""license_civ_meth""] call life_fnc_varToStr,[([""meth""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""meth"",0,false,false,"""",' !license_civ_meth && playerSide == civilian '];";
 				};
 			};
 		};
