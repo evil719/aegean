@@ -3315,7 +3315,7 @@ class Mission
 					vehicle="C_man_1";
 					leader=1;
 					skill=0.60000002;
-					init="this enableSimulation false; this allowDamage false; this addAction[""Process Tin"",life_fnc_processAction,""tin"",0,false,false,"""",' life_inv_tinore > 0 && !life_is_processing']; this addAction[format[""%1 ($%2)"",[""license_civ_tin""] call life_fnc_varToStr,[([""tin""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""copper"",0,false,false,"""",' !license_civ_tin && playerSide == civilian '];";
+					init="this enableSimulation false; this allowDamage false; this addAction[""Process Tin"",life_fnc_processAction,""tin"",0,false,false,"""",' life_inv_tinore > 0 && !life_is_processing']; this addAction[format[""%1 ($%2)"",[""license_civ_tin""] call life_fnc_varToStr,[([""tin""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""tin"",0,false,false,"""",' !license_civ_tin && playerSide == civilian '];";
 				};
 			};
 		};
@@ -3335,7 +3335,7 @@ class Mission
 					vehicle="C_man_1";
 					leader=1;
 					skill=0.60000002;
-					init="this enableSimulation false; this allowDamage false; this addAction[""Process Bronze"",life_fnc_processAction,""bronze"",0,false,false,"""",' life_inv_tinore > 0 && life_inv_copperore > 0 && !life_is_processing']; this addAction[format[""%1 ($%2)"",[""license_civ_bronze""] call life_fnc_varToStr,[([""bronze""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""copper"",0,false,false,"""",' !license_civ_bronze && playerSide == civilian '];";
+					init="this enableSimulation false; this allowDamage false; this addAction[""Process Bronze"",life_fnc_processAction,""bronze"",0,false,false,"""",' life_inv_tinore > 0 && life_inv_copperore > 0 && !life_is_processing']; this addAction[format[""%1 ($%2)"",[""license_civ_bronze""] call life_fnc_varToStr,[([""bronze""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""bronze"",0,false,false,"""",' !license_civ_bronze && playerSide == civilian '];";
 				};
 			};
 		};

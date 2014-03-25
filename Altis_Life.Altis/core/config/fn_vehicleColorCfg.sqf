@@ -134,7 +134,7 @@ switch (_vehicle) do
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_vrana_co.paa","civ"],
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_wave_co.paa","civ"],
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_digital_co.paa","reb"],
-			["images\vehlices\heli_sheriff.jpg",cop"]
+			["images\vehicles\heli_sheriff.jpg",cop"]
 		];
 	};
 	
@@ -153,7 +153,7 @@ switch (_vehicle) do
 	{
 		_ret = 
 		[
-			["images\vehlices\heli_light_03_base_co.jpg","cop"]
+			["images\vehicles\heli_light_03_base_co.jpg","cop"]
 		];
 	};
     
@@ -161,7 +161,7 @@ switch (_vehicle) do
 	{
 		_ret = 
 		[
-			["images\vehlices\heli_light_03_base_co.jpg","cop"]
+			["images\vehicles\heli_light_03_base_co.jpg","cop"]
 		];
 	};
 	
