@@ -8,7 +8,7 @@
 	Return:
 	[Spawn Marker,Spawn Name,Image Path]
 */
-private["_side"];
+private["_side","_ret"];
 _side = [_this,0,civilian,[civilian]] call BIS_fnc_param;
 
 //Spawn Marker, Spawn Name, PathToImage
@@ -16,7 +16,8 @@ switch (_side) do
 {
 	case west:
 	{
-		[
+		
+		_ret = [
 			["cop_spawn_1","Kavala HQ","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 			["cop_spawn_2","Pyrgos HQ","\a3\ui_f\data\map\MapControl\fuelstation_ca.paa"],
 			["cop_spawn_3","Athira HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"],
@@ -31,19 +32,22 @@ switch (_side) do
 	
 	case civilian:
 	{
-		[
-			["civ_spawn_1","Kavala","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-			["civ_spawn_2","Pyrgos","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-			["civ_spawn_3","Athira","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-			["civ_spawn_4","Sofia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-			//Custom Players
-			if((getPlayerUID player) in ["76561198082074868","0","0"]) then {
-				_ret = _ret + [
-				["pmc_1","PMC HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]
+				
+		_ret = [
+					["civ_spawn_1","Kavala","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+					["civ_spawn_2","Pyrgos","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+					["civ_spawn_3","Athira","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+					["civ_spawn_4","Sofie","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 				];
-			};
-		];
-		
-		
+		//if donor, they also get these options
+		//Custom Players
+		if((getPlayerUID player) in ["76561198082074868","0","0"]) then {
+			_ret = _ret + [
+				["pmc_1","PMC HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]
+			];
+			};		
+		};
 	};
 };
+
+_ret;
