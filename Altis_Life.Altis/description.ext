@@ -76,6 +76,7 @@ class CfgSounds
 	sound[] = {"\sounds\cuff.ogg", 0.25, 1};
 	titles[] = {};
   };
+  class yelp
   {
     name = "Yelp";
     sound[] = {"\sounds\Yelp.ogg", 1.0, 1};
