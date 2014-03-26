@@ -37,5 +37,13 @@ switch (_side) do
 			["civ_spawn_3","Athira","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 			["civ_spawn_4","Sofia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 		];
+		
+		//Custom Players
+		if((getPlayerUID player) in ["76561198082074868","0","0"] then {
+				_ret = _ret + [
+				["pmc_1","PMC HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]
+				];
+			};
+		
 	};
 };

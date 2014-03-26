@@ -125,13 +125,6 @@ _lithiumZones = ["lithium_1","lithium_2"];
 	_zone setTriggerStatements["player in thislist","LIFE_Action_Tin = player addAction['Mine Tin',life_fnc_gatherTin,'',0,false,false,'','!life_action_inUse'];","player removeAction LIFE_Action_Tin;"];
 } foreach _tinZones;
 
-//Create tin zones
-{
-	_zone = createTrigger ["EmptyDetector",(getMarkerPos _x)];
-	_zone setTriggerArea[50,50,0,false];
-	_zone setTriggerActivation["CIV","PRESENT",true];
-	_zone setTriggerStatements["player in thislist","LIFE_Action_Tin = player addAction['Mine Tin',life_fnc_gatherTin,'',0,false,false,'','!life_action_inUse'];","player removeAction LIFE_Action_Tin;"];
-} foreach _tinZones;
 
 //Create ammonia zones
 {
