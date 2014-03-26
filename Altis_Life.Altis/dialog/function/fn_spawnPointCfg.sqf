@@ -39,7 +39,7 @@ switch (_side) do
 		];
 		
 		//Custom Players
-		if((getPlayerUID player) in ["76561198082074868","0","0"] then {
+		if((getPlayerUID player) in ["76561198082074868","0","0"]) then {
 				_ret = _ret + [
 				["pmc_1","PMC HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]
 				];
